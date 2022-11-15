@@ -80,7 +80,7 @@ button_clear = tk.Button(master=frame, text="clear",
 button_clear.grid(row=6, column=1, columnspan=2, pady=2)
 
 button_equal = tk.Button(master=frame, text="=", padx=15,
-						pady=5, width=9, command=equal)
+						pady=5, width=8, command=equal)
 button_equal.grid(row=7, column=0, columnspan=3, pady=2)
 
 window.mainloop()
